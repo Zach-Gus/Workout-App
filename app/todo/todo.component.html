@@ -1,0 +1,20 @@
+<div class="card article" [ngClass]="{prioritized: todo.priority, complete: todo.completed}">
+  <div class="card-body">
+      <h5>
+          <span class="badge badge-primary">{{todo.votes}}</span> {{todo.title}}</h5>
+          <h6 class="card-subtitle">{{todo.details}}</h6>
+      
+      <!--<button class="card-link btn btn-sm btn-success" (click)="voteUp()">UP VOTE</button>
+      <button class="card-link btn btn-sm btn-danger" (click)="voteDown()">DOWN VOTE</button> -->
+
+      
+          <button class="card-link btn btn-sm btn-success" (click)="voteUp()">Like</button>
+          <button class="card-link btn btn-sm btn-warning" (click)="voteDown()">Dislike</button>
+
+          <button class="card-link btn btn-sm btn-danger" (click)="deleteToDo()"><i class="fa fa-trash" aria-hidden="true"></i> DELETE</button>
+        
+     
+
+      
+  </div>   
+</div>

@@ -1,0 +1,30 @@
+.btn {
+    margin-top: 15px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.priority_class{
+    float: center;
+    margin-top: 30 px;
+}
+
+.jumbotron{
+    min-height: 70vh;
+    text-align: center;
+    background: url('icehockey.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.track{
+
+    color: black;
+    bottom: 0;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+}

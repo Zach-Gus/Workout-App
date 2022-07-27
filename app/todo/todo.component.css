@@ -1,0 +1,35 @@
+
+.article {
+    margin-bottom: 11px;
+}
+
+.deleteBtn {
+    margin-top: 20px;
+    float: right;
+    align-content: center
+}
+.completedBtn{
+    margin-top: 20px;
+    float: left;
+    align-content: center
+}
+
+.update{
+    float: right;
+    align-content: center;
+}
+.prioritized{
+    background-color: lightpink;
+}
+.complete{
+    background: rgb(55, 155, 55);
+}
+.clicked 
+{
+background-color: green;
+}
+/*
+.colorchange{
+    background-color: green
+}
+*/
